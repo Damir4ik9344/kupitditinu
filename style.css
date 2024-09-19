@@ -184,3 +184,11 @@ html,body {
     margin: auto;
     font-size: 31.5px;
 }
+
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
