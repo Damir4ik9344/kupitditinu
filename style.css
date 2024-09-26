@@ -194,11 +194,34 @@ html,body {
     justify-content: center;
 }
 
-.content {
+.content, .content-form {
     
     margin-top: 50px;
     width: 100%;
     color: black;
+}
+
+.content-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+
+.form {
+    width: 40%;
+    height: 100%;
+}
+
+.form input {
+    margin-bottom: 30px;
+}
+
+.form textarea {
+    max-width: 70%;
+    min-width: 100px;
+    max-height: 250px;
+    min-height: 70px;
 }
 
 .zdatyditinu-gradient {
@@ -211,6 +234,27 @@ html,body {
     background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     color:white;
 }
+
+.rozvagy-gradient {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 370px;
+    background: rgb(0,105,122);
+    background: linear-gradient(346deg, rgba(0,105,122,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color:white;
+}
+
+.rozvagy-gradient-text {
+    font-size: 2.5em;
+    transition: 1s;
+}
+
+.rozvagy-gradient-text:hover {
+    font-size: 3em;
+}
+
 
 .zdatyditinu-gradient-text {
     font-size: 2.5em;
